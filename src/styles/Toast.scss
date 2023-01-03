@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+.notice-list {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  width: 40%;
+  height: 300px;
+  transform: translate3D(-50%, -50%, 0);
+  z-index: 100;
+
+  .notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    left: 50%;
+    top: 30%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    z-index: 1000;
+    box-shadow: 0 0 2px #ddd;
+    transform: translate3D(-50%, -50%, 0);
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  
+  
+    .noticeContent{
+      margin-left:5px;
+    }
+  }
+}
+
+
+
